@@ -1,0 +1,9 @@
+{
+	"clickurl": "http://www.example.com",
+	"format": "Skin",
+
+	"sizes": {
+		"topHeight": 250,
+		"topWidth": 1000
+	}
+}

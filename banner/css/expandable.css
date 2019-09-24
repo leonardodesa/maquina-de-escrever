@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'Special Elite';
+    src: url('../assets/SpecialElite-Regular.woff2') format('woff2');
+    src: url('../assets/SpecialElite-Regular.woff') format('woff');
+}
+
+body {
+    font-size: 0;
+    background-image: url(../assets/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    font-family: 'Special Elite';
+    font-weight: normal;
+    font-style: normal;
+}
+
+img {
+    width: 100%;
+}
+
+.pos-a {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.pos-r {
+    position: relative;
+}
+
+#container-expandable {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#container-typewrite-texts {
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+}
+
+#typewrite {
+    position: relative;
+    width: 100%;
+}
+
+#container-texts {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 62%;
+    height: 100%;
+    border-radius: 2px;
+    border: 1px solid rgb(214, 174, 133);
+    background: linear-gradient(20deg, rgb(214, 174, 133), rgb(234, 198, 156));
+    text-transform: none;
+    transform: translateX(-43.45%);
+}
+
+#texts {
+    position: relative;
+    box-sizing: border-box;
+    padding: 9% 10%;
+    width: 100%;
+    color: rgb(59, 36, 12);
+    font-size: 1.7vw;
+    text-align: left;
+    line-height: 150%;
+}
+
+.paragraph {
+    position: relative;
+    display: inline-block;
+}
+
+.espaco {
+    position: relative;
+    width: auto;
+    display: block;
+    opacity: 0;
+}
+
+#base-typewrite {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+}
+
+#typewrite-1 {
+    position: relative;
+    width: 100%;  
+    z-index: 2;
+}
+
+#hammer-1 {
+    position: absolute;
+    top: 0%;
+    left: 44%;
+    width: 14%;
+}
+
+#hammer-2 {
+    position: absolute;
+    top: 2%;
+    left: 43%;
+    width: 18%;
+}
+
+#hammer-3 {
+    position: absolute;
+    top: 6%;
+    left: 46%;
+    width: 14%;
+}
+
+.hammer-1, .hammer-2, .hammer-3 {
+    visibility: hidden;
+}
+
+#type-something {
+    position: absolute;
+    top: 45%;
+    left: 43.5%;
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    color: rgba(59, 36, 12, 0.6);
+    opacity: 0;
+}
